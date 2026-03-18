@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 260" fill="none">
+  <!-- Tail feathers -->
+  <path d="M38 148 Q12 125 18 100 Q22 120 38 140Z" fill="#081E26"/>
+  <path d="M34 162 Q4 148 8 120 Q16 142 34 158Z" fill="#081E26"/>
+  <path d="M36 176 Q8 168 14 142 Q22 162 36 172Z" fill="#081E26"/>
+  <!-- Body -->
+  <ellipse cx="118" cy="165" rx="78" ry="68" fill="#081E26"/>
+  <!-- Rib motif - white lines across belly -->
+  <path d="M68 148 Q85 136 103 148 Q120 136 138 148 Q155 136 172 148" stroke="#CCE3DA" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M64 165 Q85 152 105 165 Q122 152 142 165 Q160 152 178 165" stroke="#CCE3DA" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M70 181 Q88 170 108 181 Q126 170 144 181 Q160 170 176 181" stroke="#CCE3DA" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Neck -->
+  <path d="M158 112 Q175 100 178 130 Q175 145 162 148Z" fill="#081E26"/>
+  <!-- Head -->
+  <circle cx="178" cy="88" r="38" fill="#081E26"/>
+  <!-- Comb -->
+  <path d="M164 54 Q168 36 173 50 Q177 28 182 50 Q187 34 191 50 Q194 42 196 54" fill="#081E26" stroke="#081E26" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Wattle -->
+  <ellipse cx="170" cy="105" rx="8" ry="12" fill="#081E26"/>
+  <!-- Beak -->
+  <path d="M208 80 L226 88 L208 97Z" fill="#081E26"/>
+  <!-- Eye -->
+  <circle cx="190" cy="80" r="10" fill="#CCE3DA"/>
+  <circle cx="192" cy="78" r="5" fill="#081E26"/>
+  <circle cx="194" cy="76" r="1.5" fill="#CCE3DA"/>
+  <!-- Wing highlight -->
+  <path d="M75 150 Q100 128 130 140 Q115 162 75 150Z" fill="#3A7889" opacity="0.35"/>
+  <!-- Legs -->
+  <rect x="100" y="228" width="16" height="28" rx="4" fill="#081E26"/>
+  <rect x="128" y="228" width="16" height="28" rx="4" fill="#081E26"/>
+  <!-- Feet claws -->
+  <path d="M96 255 L84 262 M100 256 L96 266 M116 256 L110 265" stroke="#081E26" stroke-width="5" stroke-linecap="round"/>
+  <path d="M124 255 L112 262 M128 256 L124 266 M144 256 L138 265" stroke="#081E26" stroke-width="5" stroke-linecap="round"/>
+</svg>

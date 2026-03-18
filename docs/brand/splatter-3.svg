@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 300" fill="none">
+  <path d="M160 110 Q178 68 194 92 Q208 62 216 90 Q234 65 234 95 Q252 72 246 100 Q264 90 256 114 Q274 108 265 130 Q280 130 268 148 Q280 158 262 164 Q268 180 250 175 Q246 192 230 184 Q222 202 208 190 Q196 208 184 192 Q170 206 166 190 Q150 200 150 182 Q133 188 138 170 Q120 168 130 150 Q112 140 126 126 Q110 110 128 106 Q118 86 140 94 Q136 70 160 110Z" fill="#D790A2" opacity="0.65"/>
+  <path d="M240 195 Q250 205 242 212 Q252 208 248 218Z" fill="#D790A2" opacity="0.5"/>
+  <circle cx="260" cy="175" r="9" fill="#D790A2" opacity="0.55"/>
+  <circle cx="275" cy="155" r="5" fill="#D790A2" opacity="0.45"/>
+  <circle cx="118" cy="165" r="7" fill="#D790A2" opacity="0.5"/>
+  <circle cx="104" cy="140" r="4" fill="#D790A2" opacity="0.45"/>
+  <path d="M98 120 Q90 128 96 136 Q88 132 92 140Z" fill="#D790A2" opacity="0.45"/>
+  <circle cx="252" cy="220" r="4" fill="#D790A2" opacity="0.4"/>
+  <circle cx="280" cy="140" r="3" fill="#D790A2" opacity="0.4"/>
+  <circle cx="92" cy="150" r="5" fill="#D790A2" opacity="0.4"/>
+  <!-- teal accent dots -->
+  <circle cx="284" cy="200" r="6" fill="#3A7889" opacity="0.25"/>
+  <circle cx="88" cy="118" r="4" fill="#3A7889" opacity="0.25"/>
+</svg>
