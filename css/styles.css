@@ -310,7 +310,7 @@ h1, h2, h3, h4 {
   aspect-ratio: 1;
   pointer-events: none;
   transform: translate(20%, -10%) rotate(15deg);
-  opacity: .07;
+  opacity: .18;
 }
 .hero__splatter-2 {
   position: absolute;
@@ -319,7 +319,7 @@ h1, h2, h3, h4 {
   aspect-ratio: 1;
   pointer-events: none;
   transform: translate(-20%, 15%) rotate(-10deg);
-  opacity: .07;
+  opacity: .14;
 }
 .hero__watermark {
   position: absolute;
@@ -498,7 +498,7 @@ h1, h2, h3, h4 {
   top: 2rem; right: 0;
   width: clamp(16rem, 35vw, 28rem);
   aspect-ratio: 1;
-  opacity: .08;
+  opacity: .15;
   filter: invert(1);
   pointer-events: none;
   transform: translate(15%, 0) rotate(-15deg);
@@ -841,7 +841,7 @@ h1, h2, h3, h4 {
   bottom: auto;
   top: 68px;
   transform: translate(-15%, 0) rotate(20deg);
-  opacity: .07;
+  opacity: .13;
 }
 .about-hero__content { position: relative; z-index: 2; }
 .about-hero__label { color: var(--teal-light); }
@@ -869,7 +869,7 @@ h1, h2, h3, h4 {
   top: 0; right: 0;
   width: clamp(14rem, 28vw, 20rem);
   aspect-ratio: 1;
-  opacity: .07;
+  opacity: .15;
   pointer-events: none;
   transform: translate(15%, -8%) rotate(10deg);
 }
