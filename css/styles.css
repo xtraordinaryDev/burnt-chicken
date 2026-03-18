@@ -309,7 +309,8 @@ h1, h2, h3, h4 {
   width: clamp(18rem,40vw,32rem);
   aspect-ratio: 1;
   pointer-events: none;
-  transform: translate(25%, -15%);
+  transform: translate(20%, -10%) rotate(15deg);
+  opacity: .07;
 }
 .hero__splatter-2 {
   position: absolute;
@@ -317,8 +318,8 @@ h1, h2, h3, h4 {
   width: clamp(14rem,30vw,22rem);
   aspect-ratio: 1;
   pointer-events: none;
-  transform: translate(-25%, 10%);
-  opacity: .65;
+  transform: translate(-20%, 15%) rotate(-10deg);
+  opacity: .07;
 }
 .hero__watermark {
   position: absolute;
@@ -497,8 +498,10 @@ h1, h2, h3, h4 {
   top: 2rem; right: 0;
   width: clamp(16rem, 35vw, 28rem);
   aspect-ratio: 1;
-  opacity: .28;
+  opacity: .08;
+  filter: invert(1);
   pointer-events: none;
+  transform: translate(15%, 0) rotate(-15deg);
 }
 .vibe__watermark {
   position: absolute;
@@ -832,6 +835,14 @@ h1, h2, h3, h4 {
   pointer-events: none;
   transform: translate(12%, 4%);
 }
+.about-hero__watermark--crawfish {
+  right: auto;
+  left: 0;
+  bottom: auto;
+  top: 68px;
+  transform: translate(-15%, 0) rotate(20deg);
+  opacity: .07;
+}
 .about-hero__content { position: relative; z-index: 2; }
 .about-hero__label { color: var(--teal-light); }
 .about-hero__headline {
@@ -858,9 +869,9 @@ h1, h2, h3, h4 {
   top: 0; right: 0;
   width: clamp(14rem, 28vw, 20rem);
   aspect-ratio: 1;
-  opacity: .38;
+  opacity: .07;
   pointer-events: none;
-  transform: translate(20%, -10%);
+  transform: translate(15%, -8%) rotate(10deg);
 }
 .story__title { font-size: clamp(1.8rem, 4vw, 2.8rem); color: var(--ink); margin-bottom: 1.5rem; }
 .story__text {
