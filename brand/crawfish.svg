@@ -1,52 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 260" fill="#081E26">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 260" fill="none">
   <!-- Long antennae -->
-  <path d="M114 38 Q82 18 50 6"  fill="none" stroke="#081E26" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M126 38 Q158 18 190 6" fill="none" stroke="#081E26" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M114 38 Q82 18 50 6"   stroke="#081E26" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M126 38 Q158 18 190 6" stroke="#081E26" stroke-width="2.5" stroke-linecap="round"/>
   <!-- Short antennules -->
-  <path d="M110 44 Q90 34 72 36"  fill="none" stroke="#081E26" stroke-width="1.8" stroke-linecap="round"/>
-  <path d="M130 44 Q150 34 168 36" fill="none" stroke="#081E26" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M110 44 Q90 34 72 36"   stroke="#081E26" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M130 44 Q150 34 168 36" stroke="#081E26" stroke-width="1.8" stroke-linecap="round"/>
 
   <!-- Rostrum (beak) -->
-  <polygon points="120,24 113,40 127,40"/>
+  <polygon points="120,24 113,40 127,40" fill="#081E26"/>
 
   <!-- Head -->
-  <path d="M108 40 Q120 32 132 40 L135 56 Q120 63 105 56 Z"/>
+  <path d="M108 40 Q120 32 132 40 L135 56 Q120 63 105 56 Z" fill="#081E26"/>
 
-  <!-- Cephalothorax (main body) -->
-  <ellipse cx="120" cy="98" rx="32" ry="40"/>
+  <!-- Body -->
+  <ellipse cx="120" cy="98" rx="32" ry="40" fill="#081E26"/>
 
-  <!-- Left cheliped arm -->
-  <path d="M92 78 Q66 64 48 54" fill="none" stroke="#081E26" stroke-width="10" stroke-linecap="round"/>
+  <!-- Left claw arm -->
+  <path d="M92 78 Q66 64 48 54" stroke="#081E26" stroke-width="10" stroke-linecap="round"/>
   <!-- Left claw upper finger -->
-  <path d="M48 54 Q30 42 32 28" fill="none" stroke="#081E26" stroke-width="9" stroke-linecap="round"/>
+  <path d="M48 54 Q30 42 32 28"  stroke="#081E26" stroke-width="9"  stroke-linecap="round"/>
   <!-- Left claw lower finger -->
-  <path d="M48 54 Q28 60 32 74"  fill="none" stroke="#081E26" stroke-width="9" stroke-linecap="round"/>
+  <path d="M48 54 Q28 60 32 74"  stroke="#081E26" stroke-width="9"  stroke-linecap="round"/>
 
-  <!-- Right cheliped arm -->
-  <path d="M148 78 Q174 64 192 54" fill="none" stroke="#081E26" stroke-width="10" stroke-linecap="round"/>
+  <!-- Right claw arm -->
+  <path d="M148 78 Q174 64 192 54" stroke="#081E26" stroke-width="10" stroke-linecap="round"/>
   <!-- Right claw upper finger -->
-  <path d="M192 54 Q210 42 208 28" fill="none" stroke="#081E26" stroke-width="9" stroke-linecap="round"/>
+  <path d="M192 54 Q210 42 208 28" stroke="#081E26" stroke-width="9"  stroke-linecap="round"/>
   <!-- Right claw lower finger -->
-  <path d="M192 54 Q212 60 208 74"  fill="none" stroke="#081E26" stroke-width="9" stroke-linecap="round"/>
+  <path d="M192 54 Q212 60 208 74" stroke="#081E26" stroke-width="9"  stroke-linecap="round"/>
 
-  <!-- Walking legs  left (3 pairs) -->
+  <!-- Walking legs — left -->
   <line x1="92" y1="88"  x2="62"  y2="100" stroke="#081E26" stroke-width="3" stroke-linecap="round"/>
   <line x1="90" y1="102" x2="58"  y2="116" stroke="#081E26" stroke-width="3" stroke-linecap="round"/>
   <line x1="89" y1="116" x2="56"  y2="132" stroke="#081E26" stroke-width="3" stroke-linecap="round"/>
 
-  <!-- Walking legs  right (3 pairs) -->
+  <!-- Walking legs — right -->
   <line x1="148" y1="88"  x2="178" y2="100" stroke="#081E26" stroke-width="3" stroke-linecap="round"/>
   <line x1="150" y1="102" x2="182" y2="116" stroke="#081E26" stroke-width="3" stroke-linecap="round"/>
   <line x1="151" y1="116" x2="184" y2="132" stroke="#081E26" stroke-width="3" stroke-linecap="round"/>
 
   <!-- Abdomen segments -->
-  <ellipse cx="120" cy="146" rx="26" ry="12"/>
-  <ellipse cx="120" cy="166" rx="22" ry="11"/>
-  <ellipse cx="120" cy="184" rx="18" ry="10"/>
-  <ellipse cx="120" cy="200" rx="14" ry="9"/>
+  <ellipse cx="120" cy="146" rx="26" ry="12" fill="#081E26"/>
+  <ellipse cx="120" cy="166" rx="22" ry="11" fill="#081E26"/>
+  <ellipse cx="120" cy="184" rx="18" ry="10" fill="#081E26"/>
+  <ellipse cx="120" cy="200" rx="14" ry="9"  fill="#081E26"/>
 
-  <!-- Tail fan (uropods + telson) -->
-  <ellipse cx="96"  cy="216" rx="16" ry="8" transform="rotate(-30 96  216)"/>
-  <ellipse cx="120" cy="220" rx="12" ry="7"/>
-  <ellipse cx="144" cy="216" rx="16" ry="8" transform="rotate(30  144 216)"/>
+  <!-- Tail fan -->
+  <ellipse cx="96"  cy="216" rx="16" ry="8" transform="rotate(-30 96  216)" fill="#081E26"/>
+  <ellipse cx="120" cy="220" rx="12" ry="7"                                  fill="#081E26"/>
+  <ellipse cx="144" cy="216" rx="16" ry="8" transform="rotate(30  144 216)" fill="#081E26"/>
 </svg>
