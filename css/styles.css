@@ -212,6 +212,14 @@ h1, h2, h3, h4 {
 }
 .header__mobile nav a:hover { color: var(--teal); }
 
+/* Keep Order Online button legible inside the mobile menu */
+.header__mobile .btn--primary {
+  color: var(--paper);
+}
+.header__mobile .btn--primary:hover {
+  color: var(--paper);
+}
+
 /* ---- Button base ------------------------------------------ */
 .btn {
   display: inline-flex;
@@ -976,6 +984,15 @@ h1, h2, h3, h4 {
   .header__nav { display: none; }
   .header__toggle { display: flex; }
   .header__mobile { display: block; }
+
+  /* Always show a solid header background on mobile so the
+     hamburger is visible over both light and dark hero sections */
+  .header {
+    background: rgba(204,227,218,.97);
+    backdrop-filter: blur(8px);
+    box-shadow: var(--shadow-sm);
+    border-bottom: 1px solid rgba(58,120,137,.18);
+  }
 }
 
 @media (min-width: 1024px) {
