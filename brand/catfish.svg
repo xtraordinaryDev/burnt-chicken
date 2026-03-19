@@ -1,37 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 220" fill="none">
-  <!-- Main body -->
-  <path d="M72 110 Q88 62 175 56 Q258 50 296 84 Q316 100 310 118 Q302 138 268 148 Q185 164 110 156 Q72 148 68 118 Z" fill="#081E26"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 210" fill="none">
+  <!-- Body — elongated torpedo, wide at head, tapers to tail -->
+  <path d="M 60 105
+    Q 65 78  90 68
+    Q 140 54 225 60
+    Q 295 66 332 84
+    Q 350 95 350 105
+    Q 350 115 332 126
+    Q 295 144 225 150
+    Q 140 156 90 142
+    Q 65 132 60 105 Z"
+    fill="#081E26"/>
 
-  <!-- Head / snout -->
-  <path d="M72 110 Q58 96 50 80 Q42 62 54 52 Q66 44 76 58 Q70 78 72 110 Z" fill="#081E26"/>
+  <!-- Dorsal fin — tall triangle, most prominent feature -->
+  <path d="M 155 58 Q 178 16 212 10 Q 242 6 246 42 Q 226 54 192 60 Q 172 63 155 58 Z"
+    fill="#081E26"/>
 
-  <!-- Barbels (whiskers) -->
-  <path d="M54 74 Q34 66 14 68"   stroke="#081E26" stroke-width="3.5" stroke-linecap="round"/>
-  <path d="M52 86 Q30 88 10 96"   stroke="#081E26" stroke-width="3.5" stroke-linecap="round"/>
-  <path d="M56 66 Q44 52 30 46"   stroke="#081E26" stroke-width="3"   stroke-linecap="round"/>
-  <path d="M56 96 Q36 108 18 112" stroke="#081E26" stroke-width="3"   stroke-linecap="round"/>
+  <!-- Adipose fin — small soft bump behind dorsal -->
+  <path d="M 290 66 Q 303 50 317 56 Q 315 70 300 74 Z"
+    fill="#081E26"/>
 
-  <!-- Dorsal fin -->
-  <path d="M144 57 Q162 24 200 18 Q228 14 232 44 Q214 52 180 56 Q162 58 144 57 Z" fill="#081E26"/>
+  <!-- Upper tail lobe -->
+  <path d="M 332 86 Q 362 60 390 34 Q 398 24 387 20 Q 374 18 364 36 Q 353 56 332 86 Z"
+    fill="#081E26"/>
 
-  <!-- Adipose fin (small bump behind dorsal) -->
-  <path d="M248 58 Q260 44 272 50 Q270 60 258 64 Z" fill="#081E26"/>
+  <!-- Lower tail lobe -->
+  <path d="M 332 124 Q 362 150 388 176 Q 396 186 384 190 Q 372 192 362 176 Q 351 158 332 124 Z"
+    fill="#081E26"/>
 
-  <!-- Pectoral fin -->
-  <path d="M96 128 Q78 148 60 162 Q52 170 62 168 Q82 158 102 142 Z" fill="#081E26"/>
+  <!-- Pectoral fin — sweeps back and down behind the head -->
+  <path d="M 108 140 Q 86 164 68 180 Q 60 188 70 186 Q 90 176 114 154 Z"
+    fill="#081E26"/>
 
   <!-- Pelvic fin -->
-  <path d="M168 154 Q172 172 158 182 Q150 178 150 166 Z" fill="#081E26"/>
+  <path d="M 196 149 Q 200 170 186 180 Q 178 176 178 163 Z"
+    fill="#081E26"/>
 
   <!-- Anal fin -->
-  <path d="M212 150 Q224 168 210 176 Q202 172 202 160 Z" fill="#081E26"/>
+  <path d="M 250 146 Q 260 166 247 174 Q 239 170 239 158 Z"
+    fill="#081E26"/>
 
-  <!-- Tail — forked upper -->
-  <path d="M296 84  Q318 64 330 44 Q334 32 324 28 Q312 26 306 40 Q300 56 296 84  Z" fill="#081E26"/>
-  <!-- Tail — forked lower -->
-  <path d="M296 118 Q318 140 328 162 Q332 174 322 176 Q310 178 304 164 Q298 148 296 118 Z" fill="#081E26"/>
+  <!-- Long maxillary barbels (upper lip — signature catfish whiskers, sweep far forward) -->
+  <path d="M 62 96  Q 38 76  14 62"  stroke="#081E26" stroke-width="4"   stroke-linecap="round"/>
+  <path d="M 62 99  Q 34 74   6 56"  stroke="#081E26" stroke-width="3"   stroke-linecap="round"/>
+
+  <!-- Mandibular barbels (chin — angle forward and down) -->
+  <path d="M 62 114 Q 36 124  12 130" stroke="#081E26" stroke-width="4"   stroke-linecap="round"/>
+  <path d="M 62 116 Q 38 132  16 146" stroke="#081E26" stroke-width="3"   stroke-linecap="round"/>
+
+  <!-- Nasal barbels (short, mid-snout) -->
+  <path d="M 62 105 Q 42 100  22 98"  stroke="#081E26" stroke-width="2.5" stroke-linecap="round"/>
 
   <!-- Eye -->
-  <circle cx="60" cy="80" r="7" fill="#081E26"/>
-  <circle cx="60" cy="80" r="3" fill="#CCE3DA" opacity="0.4"/>
+  <circle cx="90" cy="87" r="9"   fill="#081E26"/>
+  <circle cx="90" cy="87" r="3.5" fill="#CCE3DA" opacity="0.45"/>
 </svg>
