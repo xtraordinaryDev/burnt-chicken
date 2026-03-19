@@ -413,10 +413,11 @@ h1, h2, h3, h4 {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('../brand/chicken-icon.svg');
-  background-size: 90px 90px;
+  background-image: url('../images/logo.png');
+  background-size: 110px 110px;
   background-repeat: repeat;
-  opacity: .05;
+  opacity: .08;
+  mix-blend-mode: multiply;
   pointer-events: none;
   z-index: 0;
 }
