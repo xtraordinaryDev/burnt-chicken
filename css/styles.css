@@ -407,6 +407,22 @@ h1, h2, h3, h4 {
   position: relative;
   padding-block: clamp(4rem, 8vw, 7rem);
   background: var(--paper);
+  overflow: hidden;
+}
+.featured::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('../brand/chicken-icon.svg');
+  background-size: 90px 90px;
+  background-repeat: repeat;
+  opacity: .05;
+  pointer-events: none;
+  z-index: 0;
+}
+.featured .container {
+  position: relative;
+  z-index: 1;
 }
 .section-label {
   font-family: var(--font-sans);
