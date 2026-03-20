@@ -97,6 +97,7 @@ h1, h2, h3, h4 {
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 100;
+  padding-top: env(safe-area-inset-top);
   transition: background .3s var(--ease), box-shadow .3s var(--ease);
 }
 .header.scrolled {
@@ -287,7 +288,7 @@ h1, h2, h3, h4 {
   justify-content: center;
   overflow: hidden;
   background: var(--paper);
-  padding-top: 68px;
+  padding-top: calc(68px + env(safe-area-inset-top));
 }
 
 /* Horizontal rule grain lines */
@@ -830,7 +831,7 @@ h1, h2, h3, h4 {
   justify-content: flex-end;
   background: var(--ink);
   overflow: hidden;
-  padding-top: 68px;
+  padding-top: calc(68px + env(safe-area-inset-top));
   padding-bottom: clamp(2.5rem, 5vw, 4rem);
 }
 .about-hero__bg {
@@ -856,7 +857,7 @@ h1, h2, h3, h4 {
   right: auto;
   left: 0;
   bottom: auto;
-  top: 68px;
+  top: calc(68px + env(safe-area-inset-top));
   transform: translate(-15%, 0) rotate(20deg);
   opacity: .13;
 }
@@ -1020,6 +1021,8 @@ h1, h2, h3, h4 {
     backdrop-filter: blur(8px);
     box-shadow: var(--shadow-sm);
     border-bottom: 1px solid rgba(58,120,137,.18);
+    /* Stretch background colour into the notch/status-bar area */
+    background-clip: padding-box;
   }
 }
 
